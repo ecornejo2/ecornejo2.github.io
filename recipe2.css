@@ -1,0 +1,162 @@
+h1{
+    color:brown;
+    margin: auto;
+    font-size: 62px;
+}
+h2{
+    color:brown;
+}
+p{
+    color:black
+}
+img{
+    position: absolute;
+    top: 360px;
+    right: 40px;
+    width: 300px;
+    border-width: 10px;
+    border-color: white;
+}
+body{
+    background-image: linear-gradient(khaki,brown);
+}
+.preconnect{
+    font-family:cursive;
+
+}
+.vide{
+    position: absolute;
+    top: 300px;
+    right: 400px;
+    width: 300px;
+}
+.title{
+    width: 500px;
+    border: 15px purple;
+    padding: 4px;
+    margin: 20px;
+    border-style: dotted;
+    
+    
+}
+p{
+    color: indigo;
+    font-weight: 900;
+}
+.red{
+    color: red;
+}
+.orange{
+    color: brown;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.purple{
+    color: purple;
+}
+.navbar{
+    background-color: rgb(60, 24, 118);
+}
+.cars{
+    color:rgb(132, 245, 61);
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}

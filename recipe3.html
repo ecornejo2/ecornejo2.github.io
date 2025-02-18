@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!--Emmanuel Cornejo Period:6-->
+     <title>Family recipe</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      
+      .title{
+        font-family: "Kaushan Script", serif;;
+      }
+        h1{
+          color:rgba(73, 40, 7, 0.863);
+          margin: auto;
+          font-size: 120px;
+          font-family: "Kaushan Script", serif;;
+        }
+      h2{
+          color:rgb(158, 81, 26);
+          font-family:Verdana, Geneva, Tahoma, sans-serif
+      }
+
+      p{
+          color: black
+      }
+      img{
+          top: 275px;
+          right: 40px;
+          width: 300px;
+          border-width: 10px;
+          border-color: white;
+      }
+      body{
+          background-color:rgba(208, 111, 69, 0.835)
+      }
+      .preconnect{
+          font-family:cursive;
+
+      }
+      .vide{
+          top: 200px;
+          right: 400px;
+          width: 300px;
+          height: 300px;
+      }
+      .title{
+        border: rgb(194, 94, 23) 10px inset;
+        
+      }
+      p{
+          color: white;
+          font-weight: 900;
+      }
+      .red{
+          color: white;
+
+      }
+      .orange{
+          color: white;
+
+      }
+      .yellow{
+          color: white;
+      }
+      .green{
+          color: white;
+        
+      }
+      .blue{
+          color: white;
+      
+      }
+      .purple{
+          color: white;
+      }
+
+      .container-fluid{
+          color:white;
+      }
+      .row{
+        border: 2px solid rgb(165, 78, 16);
+      }
+      .fr{
+        background-color: rgba(208, 111, 69, 0.835)
+
+      }
+      .fl{
+        background-color:rgb(216, 201, 201)
+      }
+      .fe{
+        background-color: rgba(208, 111, 69, 0.835); 
+      }
+      .kaushan-script-regular {
+        font-family: "Kaushan Script", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .li{
+        color: white;
+      }
+      .cars{
+    color:rgb(132, 245, 61);
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      } 
+      .navbar{
+    background-color: rgb(60, 24, 118);
+    }
+    h3{
+    color: rgb(60, 24, 118);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    }
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+  </style>
+  </head>
+  <body>
+    <!--Start Nav Bar-->
+<nav class="navbar navbar-expand-sm ">
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link cars" href="index2.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link cars" href="sports.html">Sports</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link cars" href="hobby.html">Hobbies</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link cars" href="career.html">Career</a>
+    </li>
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle cars" href="#" id="navbardrop" data-toggle="dropdown">
+        Recipes
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="recipe.html"><div class="cars">Recipe</div></a>
+        <a class="dropdown-item" href="recipe2.html"><div class="cars">Recipe 2</div></a>
+        <a class="dropdown-item" href="recipe3.html"><div class="cars">Recipe 3</div></a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<br>
+<!--End Nav Bar-->
+        <div class="row">
+           <div class="col-sm-9 fl">
+           <div class="title"><h1>Caramel Flan</h1></div>
+          </div>
+          <div class="col-sm-3">
+          <div class="img"><img src="media/flan.jpeg" alt="Caramel Flan"></div>
+        </div>
+        </div>
+        </Header>
+          <div class="row">
+            <div class="col-sm-9">
+        <h2 class="display-3">History</h2>
+        <div class="preconnect"><p>This sweet desert has an intresting history and luckily the recipe still lived. Flan was originally created in Ancient Rome, but as the Roman empire downfall happened, the spaniards adopted this recipe known as Flan. Then spain expanded into the New world and popularized in South Mexico. In English, "Flan" means a dessert of sweetened egg custard with a caramel topping. The common misconception today is that Flan is a mexican dish, while it may have popularized largely in Mexico, the dish itself has european orgins.  </p></div>
+          </div>
+          <div class="col-sm-3">
+           <h2 class="display-5">Ingredients</h2>
+          <ul>
+         <div class="preconnect"><div class="red"><li>Eggs</li></div></div>
+         <div class="preconnect"><div class="orange"><li>Condensed Milk</li></div></div>
+         <div class="preconnect"><div class="yellow"><li>Evaporated Milk</li></div></div>
+         <div class="preconnect"><div class="green"><li>sugar</li></div></div>
+         <div class="preconnect"><div class="blue"><li>Vanilla extract</li></div></div>
+         <div class="preconnect"><div class="purple"><li>Boiling water</li></div></div>
+        </ul>
+          </div>
+          </div>
+          
+    <div class="row">
+      <div class="col-sm-8 fr">
+        <h2 class="display-3">Directions</h2>
+        <ol>
+            <div class="preconnect"><li><p>Preheat oven to <b><i><u>325</u></i></b> degrees</p></li></div>
+            <div class="preconnect"><li><p>Brown sugar in a saucepan till a medium dark golden brown, but not burnt and then quickly transfer to the bottom of a pie plate</p></li></div>
+            <div class="preconnect"><li><p>In a large bowl beat the eggs and then add the 2 cans of milk and vanilla extract, mixing well</p></li></div>
+            <div class="preconnect"><li><p>Pour mixture into pie plate</li></div>
+            <div class="preconnect"><li><p>Using a larger pan that the pie plate will fit in, fill half way with the boiling water, place in oven, and then place pie plate in the middle of the large pan</p></li></div>
+            <div class="preconnect"><li><p>Bake for approximately <u><b>45 - 55 minutes.</b></u> The center should be soft and firm but not liquidly.</p></li></div>
+            <div class="preconnect"><li><p>Let cool and then after running a knife around the edge to seperate, flip over onto a serving dish</p></li></div>
+        </ol>
+      </div> 
+      <div class="col-sm-4 fe">
+        <div class="fr"><h2>Video:</h2></div></article>
+        <div class="vide"><video width="300" height="310" controls>
+        <source src="media/recipeflan.mp4" type="video/mp4">
+      </div>
+    </div>
+    <div class="row">
+     <div class="col-sm-8">
+      <p><strong>Refrence List Entry</strong></p>
+      <p> CTaylor. (2007, February 22). <i>Recipes. Recipe - Food.com.</i></p>
+      <a href="https://www.food.com/recipe/easy-caramel-flan-creme-caramel-213213" target="_blank">Caramel Flan recipe</a>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <footer>
+      <div class="footerContainer">
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="https://x.com/?lang=en&mx=2" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/eman_0216/ " target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
